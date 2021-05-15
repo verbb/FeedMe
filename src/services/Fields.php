@@ -34,6 +34,7 @@ use craft\feedme\fields\Table;
 use craft\feedme\fields\Tags;
 use craft\feedme\fields\TypedLink;
 use craft\feedme\fields\Users;
+use craft\feedme\fields\VZAddress;
 use craft\helpers\Component as ComponentHelper;
 
 /**
@@ -143,6 +144,7 @@ class Fields extends Component
                 SmartMap::class,
                 SuperTable::class,
                 TypedLink::class,
+                VZAddress::class
             ],
         ]);
 
